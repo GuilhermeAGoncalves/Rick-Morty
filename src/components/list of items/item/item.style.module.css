@@ -1,0 +1,32 @@
+.element {
+  width: 500px;
+  display: flex;
+  align-items: stretch;
+  margin: 20px 0;
+  border: 1px solid #acacac;
+}
+
+.element img {
+  max-width: 230px;
+  margin-right: 20px;
+}
+
+.element__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.element__info h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.alive span {
+  color: green;
+  border-radius: 50%;
+}
+
+.death span {
+  color: red;
+}

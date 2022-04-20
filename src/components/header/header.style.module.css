@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "schwifty";
+  src: url("../../font/get_schwifty.ttf");
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #c0df40;
+}
+
+.title {
+  font-size: 32px;
+  font-family: "schwifty";
+  color: #40b5cb;
+}
+
+.link {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+}
+
+.link:hover {
+  color: #40b5cb;
+  border-bottom: 1px solid #40b5cb;
+}
