@@ -17,9 +17,18 @@
   justify-content: space-around;
 }
 
+.element__info p {
+  color: #000;
+}
+
+.element__info span {
+  color: #acacac;
+}
+
 .element__info h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  color: black;
 }
 
 .alive span {

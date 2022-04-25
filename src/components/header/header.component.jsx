@@ -10,7 +10,7 @@ function Header() {
         <Link className={css.link} to="/locations">
           Locais
         </Link>
-        <Link className={css.link} to="/characters">
+        <Link className={css.link} to="/">
           Personagens
         </Link>
         <Link className={css.link} to="/episodes">

@@ -2,8 +2,8 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Header from "../../components/header/header.component";
 import ListOfItems from "../../components/list of items/listOfItems.component";
-import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import css from "./home.page.style.module.css";
+import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 
 function Home() {
   const [data, setData] = useState(null);
@@ -27,12 +27,13 @@ function Home() {
       window.scroll(0, 0);
     }
   };
+
   console.log(data);
 
   return (
     <>
       <Header />
-      <ListOfItems data={data ? data.results : []} />
+      <ListOfItems data={data ? data.results : []} type="character" />
       <div className={css.buttons}>
         <button onClick={returnPage}>
           <AiOutlineArrowLeft /> Voltar
