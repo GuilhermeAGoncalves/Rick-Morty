@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Header from "../../components/header/header.component";
-import ListOfItems from "../../components/list of items/listOfItems.component";
+import ListOfItems from "../../components/list-of-items/listOfItems.component";
 import css from "./home.page.style.module.css";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 
