@@ -13,11 +13,12 @@ function Item({
 }) {
   if (type === "location") {
     return (
-      <div className={css.element}>
-        <div className={css.element__info}>
+      <div className={css.element__location}>
+        <div className={css.element__location__info}>
           <span>
             Nome: <h1>{name}</h1>
           </span>
+
           <span>
             Dimensão: <p>{dimension}</p>
           </span>

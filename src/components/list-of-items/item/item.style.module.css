@@ -11,21 +11,38 @@
   margin-right: 20px;
 }
 
-.element__info {
+.element__location {
+  width: 350px;
+  display: flex;
+  align-items: stretch;
+  margin: 20px 0;
+  border: 1px solid #acacac;
+  padding: 10px;
+}
+
+.element__location__info span {
+  padding: 3px;
+}
+
+.element__info,
+.element__location__info {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.element__info p {
+.element__info p,
+.element__location__info p {
   color: #000;
 }
 
-.element__info span {
+.element__info span,
+.element__location__info span {
   color: #acacac;
 }
 
-.element__info h1 {
+.element__info h1,
+.element__location__info h1 {
   font-weight: bold;
   font-size: 1.5rem;
   color: black;
