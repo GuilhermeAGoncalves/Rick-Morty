@@ -56,3 +56,26 @@
 .death span {
   color: red;
 }
+
+@media (max-width: 425px) {
+  .element {
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .element img {
+    max-width: 300px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .element__info {
+    margin-bottom: 10px;
+  }
+
+  .element__info h1,
+  .element__info p {
+    margin-bottom: 5px;
+  }
+}

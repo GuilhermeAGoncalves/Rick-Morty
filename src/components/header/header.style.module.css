@@ -27,3 +27,9 @@
   color: #40b5cb;
   border-bottom: 1px solid #40b5cb;
 }
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 24px;
+  }
+}
