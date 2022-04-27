@@ -1,5 +1,15 @@
-.h1 {
-  font-size: 2rem;
+.buttons {
   text-align: center;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #40b5cb;
+  cursor: pointer;
 }

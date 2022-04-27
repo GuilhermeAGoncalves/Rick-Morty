@@ -10,7 +10,11 @@ function Item({
   dimension,
   type,
   typeLocations,
+  episode,
+  data,
 }) {
+  console.log(type);
+  console.log(data);
   if (type === "location") {
     return (
       <div className={css.element__location}>
@@ -54,9 +58,30 @@ function Item({
     );
   }
 
+  if (type === "episode") {
+    return (
+      <div className={css.element__location}>
+        <div className={css.element__location__info}>
+          <span>
+            Nome:
+            <h1>{name}</h1>
+          </span>
+          <span>
+            Episodio:
+            <p>{episode}</p>
+          </span>
+          <span>
+            Data:
+            <p>{data}</p>
+          </span>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
-      <h1>asda</h1>
+      <h1>não chegou</h1>
     </>
   );
 }

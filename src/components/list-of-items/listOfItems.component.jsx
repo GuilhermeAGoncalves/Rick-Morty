@@ -37,6 +37,24 @@ function ListOfItems({ data, type }) {
     );
   }
 
+  console.log(data, type);
+
+  if (type === "episodes") {
+    return (
+      <div className={css.list}>
+        {data.map((element) => (
+          <Item
+            key={element.id}
+            data={element.air_date}
+            name={element.name}
+            episode={element.episode}
+            type="episode"
+          />
+        ))}
+      </div>
+    );
+  }
+
   return <></>;
 }
 
